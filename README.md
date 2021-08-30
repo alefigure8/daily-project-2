@@ -1,4 +1,4 @@
-# daily-project-2
+# Daily Project #2
 
 This is the second daily project that i made just for practice.
 
