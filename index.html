@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <span>QUIZIC</span>
+
+    <div class="container">
+        <div class="quiz-header" id="quiz-header">
+            <h2 id="question">Question text</h2>
+            <div id="alert" class="alert"></div>
+            <ul>
+                <li>
+                    <input type="radio" id="a" name="answer" class="answers"></input>
+                    <label id="a_text" for="a">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="b" name="answer" class="answers"></input>
+                    <label id="b_text" for="b">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="c" name="answer" class="answers"></input>
+                    <label id="c_text" for="c">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="d" name="answer" class="answers"></input>
+                    <label id="d_text" for="d">Question</label>
+                </li>
+            </ul>
+            <div class="points-container">
+                <div class="points-left"></div>
+                <p id="points" class="points-right"></p>
+            </div>
+        </div>
+        <div id="message" class="message"></div>
+        <button id="submit">Next</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
